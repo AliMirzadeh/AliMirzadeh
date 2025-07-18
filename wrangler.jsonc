@@ -7,6 +7,7 @@
 	"name": "ali",
 	"main": ".svelte-kit/cloudflare/_worker.js",
 	"compatibility_date": "2025-07-18",
+	"compatibility_flags": ["nodejs_compat"],
 	"assets": {
 		"binding": "ASSETS",
 		"directory": ".svelte-kit/cloudflare"
@@ -32,6 +33,13 @@
 	 * databases, object storage, AI inference, real-time communication and more.
 	 * https://developers.cloudflare.com/workers/runtime-apis/bindings/
 	 */
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "ali",
+			"database_id": "443b0199-ed91-40a4-b3e1-1cd53ea9b9d0"
+		}
+	],
 
 	/**
 	 * Environment Variables
